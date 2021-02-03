@@ -1,24 +1,20 @@
-# README
+# [TODO App]()
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![app screenshot](app/assets/images/Todo_screenshot.png)
 
-Things you may want to cover:
+## [SEE DEMO]() - on Heroku, takes ~20 seconds to spin up
 
-* Ruby version
+This simple app takes a Vue2 and Semantic front-end app and adds a Rails back-end to it. A user creates a new task, name and description are required. The task status can be toggled between completed or in progress. A message shows up in the sidebar for each function performed. Deletion is immediate, and without a warning, as that might be irritating in a commonly used app.
 
-* System dependencies
+## Technologies Used:
 
-* Configuration
+* Rails 6.1.1
+* Ruby 3.0.0p0 
+* Vue 2.6.12
+* Semantic UI 2.4.2
+* Axios 0.21.1
+* SQLite3 db in dev, PostgreSQL in development
 
-* Database creation
+It was built following a code-along by Evgeny Rahman in the [JavaScript and Ruby on Rails with React, Angular, and Vue](https://www.udemy.com/course/ruby-on-rails-react-angular/) course. This course is somewhat dated, but it built on top of projects built in an earlier course, so I figured it'd be good to learn on projects that I already know.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I ended up wasting a bit of time with this app trying to fix some issues in the original app, but they were fixed when I migrated to this version. 
